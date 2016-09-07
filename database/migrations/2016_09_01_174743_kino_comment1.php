@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class Kino extends Migration
+class KinoComment1 extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,10 @@ class Kino extends Migration
      */
     public function up()
     {
-        Schema::table('kino_attributes',function (Blueprint $table){
-            $table->string('code');
+        //
+        Schema::table('kino_comment',function (Blueprint $table) {
+            $table->timestamp('updated_at')->nullable();
+            $table->timestamp('created_at')->nullable();
         });
     }
 

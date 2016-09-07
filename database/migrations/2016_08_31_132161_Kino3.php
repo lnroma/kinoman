@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class Kino extends Migration
+class Kino3 extends Migration
 {
     /**
      * Run the migrations.
@@ -14,7 +14,9 @@ class Kino extends Migration
     public function up()
     {
         Schema::table('kino',function (Blueprint $table){
-            $table->string('url_key');
+            $table->string('src');
+            $table->string('src_tumb');
+            $table->string('raiting');
         });
     }
 
