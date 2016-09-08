@@ -63,7 +63,7 @@ class KinoController extends CrudController
             $options[$_options['id']] = $_options['name'];
         }
         $this->edit
-            ->add('category_idsn', 'Категории', 'select')
+            ->add('category_idsn', 'Категории', 'multiselect')
             ->options(
                 $options
             );
