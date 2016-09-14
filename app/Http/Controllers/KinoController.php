@@ -52,6 +52,10 @@ class KinoController extends CrudController
 
         $this
             ->edit
+            ->add('player','Код плеера','text');
+
+        $this
+            ->edit
             ->add('src_tumb', 'Аватар фильма', 'image')
             ->move('uploads/images/');
 

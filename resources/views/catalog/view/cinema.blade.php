@@ -24,18 +24,22 @@ $comments = DB::table('kino_comment')
                     </div>
                     <div class="panel-body">
                         <?php echo Breadcrumbs::render('kino', $category, $kino) ?>
+                        <?php if($kino['player']): ?>
+                        <?php echo $kino['player'] ?>
+                        <?php else: ?>
                         <video controls width="100%">
                             <source src="<?php echo $kino['src'] ?>" type="video/mp4">
                         </video>
+                        <?php endif ?>
                         <?php echo $kino['description'] ?>
                         <hr/>
                         Коментарии:
                         <hr/>
-                            <?php foreach($comments->getCollection() as $_com): ?>
-                                <?php echo $_com->name ?> : <?php echo $_com->titles ?><br/>
-                                <?php echo $_com->message ?>
-                                <br/>
-                            <?php endforeach; ?>
+                        <?php foreach($comments->getCollection() as $_com): ?>
+                        <?php echo $_com->name ?> : <?php echo $_com->titles ?><br/>
+                        <?php echo $_com->message ?>
+                        <br/>
+                        <?php endforeach; ?>
                         <hr/>
                         <?php echo $comments->render() ?>
                         <hr/>
