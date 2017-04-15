@@ -51,7 +51,7 @@
 
             <!-- Branding Image -->
             <a class="navbar-brand" href="{{ url('/') }}">
-                Киноман
+                Х.З.Видео
             </a>
         </div>
 

@@ -43,7 +43,7 @@ class Catalog extends Controller
         $catalog = DB::table('kino')
             ->where('category_idsn', 'like', '%'.$catId.'%')
             ->paginate(5);
-//        var_dump($catalog->getCollection());die;
+
         return view('catalog.catalog')
             ->with('catalog', $catalog)
             ->with('category', $categoryInformation)
