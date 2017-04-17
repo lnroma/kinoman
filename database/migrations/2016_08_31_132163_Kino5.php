@@ -13,6 +13,7 @@ class Kino5 extends Migration
      */
     public function up()
     {
+        return;
         Schema::table('kino',function (Blueprint $table){
             $table->string('url_key');
         });

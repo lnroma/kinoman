@@ -13,6 +13,7 @@ class Kino4 extends Migration
      */
     public function up()
     {
+        return;
         Schema::table('kino',function (Blueprint $table){
             $table->string('category_idsn');
         });

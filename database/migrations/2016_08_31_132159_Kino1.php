@@ -20,10 +20,10 @@ class Kino1 extends Migration
                 ->change();
         });
 
-        Schema::table('kino_attributes',function (Blueprint $table){
-            $table->dropColumn('kino_id');
-            $table->integer('is_require');
-        });
+//        Schema::table('kino_attributes',function (Blueprint $table){
+//            $table->dropColumn('kino_id');
+//            $table->integer('is_require');
+//        });
 
     }
 

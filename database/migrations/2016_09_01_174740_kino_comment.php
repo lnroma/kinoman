@@ -13,6 +13,7 @@ class KinoComment extends Migration
      */
     public function up()
     {
+        return;
         //
         Schema::create('kino_comment',function (Blueprint $table) {
             $table->increments('id');

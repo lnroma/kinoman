@@ -13,6 +13,7 @@ class Kino6 extends Migration
      */
     public function up()
     {
+        return;
         Schema::table('kino',function (Blueprint $table){
             $table->string('player');
         });

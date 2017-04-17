@@ -13,6 +13,7 @@ class Category1 extends Migration
      */
     public function up()
     {
+        return;
         Schema::table('category',function (Blueprint $table) {
             $table->string('url_key');
         });

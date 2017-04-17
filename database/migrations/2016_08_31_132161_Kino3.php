@@ -13,6 +13,7 @@ class Kino3 extends Migration
      */
     public function up()
     {
+        return;
         Schema::table('kino',function (Blueprint $table){
             $table->string('src');
             $table->string('src_tumb');

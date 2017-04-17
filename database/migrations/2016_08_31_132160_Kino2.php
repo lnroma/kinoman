@@ -13,9 +13,9 @@ class Kino2 extends Migration
      */
     public function up()
     {
-        Schema::table('kino_attributes',function (Blueprint $table){
-            $table->string('code');
-        });
+//        Schema::table('kino_attributes',function (Blueprint $table){
+//            $table->string('code');
+//        });
     }
 
     /**

@@ -13,6 +13,7 @@ class Category extends Migration
      */
     public function up()
     {
+        return;
         Schema::create('category',function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');

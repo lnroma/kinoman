@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "153a73ab92869434e38b0dc6d9290459",
-    "content-hash": "432107f592edfe58fd2e0e859b245be6",
+    "hash": "75299dab199ca078bb9b99a40a940de2",
+    "content-hash": "eab1a09d737d20fe1a6d9f3727983a2b",
     "packages": [
         {
             "name": "barryvdh/elfinder-flysystem-driver",
@@ -2027,6 +2027,99 @@
             "time": "2016-08-02 18:39:32"
         },
         {
+            "name": "riari/laravel-forum",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Riari/laravel-forum.git",
+                "reference": "5d0df9afa0199f58a428ae3c04c65554f2e86895"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Riari/laravel-forum/zipball/5d0df9afa0199f58a428ae3c04c65554f2e86895",
+                "reference": "5d0df9afa0199f58a428ae3c04c65554f2e86895",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/dbal": "^2.5",
+                "laravel/framework": "~5.3",
+                "php": ">=5.4.0"
+            },
+            "suggest": {
+                "riari/laravel-forum-frontend": "The standard forum frontend that provides views written with Bootstrap 3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Riari\\Forum\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Riari",
+                    "email": "hello@ricko.me"
+                }
+            ],
+            "description": "A Laravel 4/5 package providing a solid foundation for building discussion forums",
+            "keywords": [
+                "discuss",
+                "forum",
+                "laravel",
+                "laravel-4",
+                "laravel-5"
+            ],
+            "time": "2017-02-11 14:48:21"
+        },
+        {
+            "name": "riari/laravel-forum-frontend",
+            "version": "1.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Riari/laravel-forum-frontend.git",
+                "reference": "4a1ff5ed7a61905b705103596e599284a3c25498"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Riari/laravel-forum-frontend/zipball/4a1ff5ed7a61905b705103596e599284a3c25498",
+                "reference": "4a1ff5ed7a61905b705103596e599284a3c25498",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "riari/laravel-forum": "3.0 - 4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Riari\\Forum\\Frontend\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Riari",
+                    "email": "hello@ricko.me"
+                }
+            ],
+            "description": "A frontend for riari/laravel-forum providing views written with Bootstrap 3",
+            "keywords": [
+                "discuss",
+                "forum",
+                "frontend",
+                "laravel",
+                "laravel-4",
+                "laravel-5"
+            ],
+            "time": "2017-02-27 15:53:32"
+        },
+        {
             "name": "serverfireteam/panel",
             "version": "1.4.7",
             "source": {
@@ -3437,12 +3530,12 @@
             "version": "0.9.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/padraic/mockery.git",
+                "url": "https://github.com/mockery/mockery.git",
                 "reference": "4db079511a283e5aba1b3c2fb19037c645e70fc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/padraic/mockery/zipball/4db079511a283e5aba1b3c2fb19037c645e70fc2",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/4db079511a283e5aba1b3c2fb19037c645e70fc2",
                 "reference": "4db079511a283e5aba1b3c2fb19037c645e70fc2",
                 "shasum": ""
             },

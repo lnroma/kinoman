@@ -13,6 +13,7 @@ class KinoComment1 extends Migration
      */
     public function up()
     {
+        return;
         //
         Schema::table('kino_comment',function (Blueprint $table) {
             $table->timestamp('updated_at')->nullable();

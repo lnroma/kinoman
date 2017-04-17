@@ -10,7 +10,9 @@
         "serverfireteam/panel": "^1.4",
         "doctrine/dbal": "^2.5",
         "davejamesmiller/laravel-breadcrumbs": "^3.0",
-        "sngrl/sphinxsearch": "dev-master"
+        "sngrl/sphinxsearch": "dev-master",
+        "riari/laravel-forum": "~4.0",
+        "riari/laravel-forum-frontend": "~1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
